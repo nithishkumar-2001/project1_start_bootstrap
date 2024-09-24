@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../assets/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: "poppins";
+    font-size: 18px;
+}
+
+.bgdark {
+    background-color: rgb(47, 68, 91);
+}
+
+.menu {
+    background-color: #1abc9c;
+    color: white;
+    border-color: 1px solid white;
+}
+
+.dot {
+    border-color: 1px solid white;
+}
+
+/* .bgcolor {
+    background-color: #1abc9c;
+    border-radius: 10px;
+    font-size: medium;
+} */
+
+.fsize {
+    font-size: medium;
+}
+
+.width {
+    width: 250px;
+    padding-top: 150px;
+}
+
+.color {
+    background-color: #1abc9c;
+    width: 100%;
+}
+
+.fs6 {
+    font-size: 60px;
+}
+
+.bor {
+    /* width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color:white;
+    border-radius: 1rem;
+    border-color: #2c3e50; */
+    border-top: 3px solid white;
+    width: 100px !important;
+    margin-top: 20px;
+}
+
+.bor1 {
+    border-top: 3px solid black;
+    width: 100px !important;
+    margin-top: 20px;
+}
+
+.pb7 {
+    padding-bottom: 90px;
+}
+
+.letter {
+    letter-spacing: 3px;
+}
+
+.letter1 {
+    font-size: 45px;
+}
+
+.plus {
+    background-color: #1abc9c;
+}
+
+.hov:hover {
+    background-color: white;
+    color: black !important;
+    cursor: no-drop;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btncolor {
+    background-color: #1abc9c;
+    color: white;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.formtext {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.bgcolo {
+    background-color: rgb(32, 45, 65);
+}
+
+.icon {
+    padding: 17px;
+    padding-bottom: 10px;
+}
+
+.icon:hover {
+    background-color: white;
+    color: black;
+}
+
+.icon1 {
+    padding: 13px;
+}
+
+.icon1:hover {
+    background-color: white;
+    color: black;
+}
+
+.bord {
+    border: none;
+    border-bottom: 1px solid green;
+}
+
+.fs7 {
+    font-size: 15px;
+}
+
+.texcol:hover {
+    background-color: #1abc9c !important;
+}
+.active, .nav:hover:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+.nav{
+    border: none;
+    outline: none;
+    border-radius: 20px ;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+
+@media (max-width:992px) {
+    .fs6 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .bor {
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .bgcolo {
+        text-align: center !important;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .fs7 {
+        margin-right: 180px;
+    }
+
+}
+
+
+/* @media (min-width:992px) {
+    .bgcolor{
+        background-color: #1abc9c;
+        border-radius: 10px;
+        font-size: medium;
+    }
+    
+} */
